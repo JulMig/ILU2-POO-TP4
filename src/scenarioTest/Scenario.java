@@ -1,7 +1,11 @@
 package scenarioTest;
 
 import personnages.Gaulois;
+import produit.Poisson;
+import produit.Produit;
+import produit.Sanglier;
 import villagegaulois.Etal;
+import villagegaulois.IEtal;
 
 public class Scenario {
 
@@ -10,7 +14,8 @@ public class Scenario {
 		// TODO Partie 4 : creer de la classe anonyme Village
 
 		// fin
-
+		
+		
 		Gaulois ordralfabetix = new Gaulois("Ordralfabétix", 9);
 		Gaulois obelix = new Gaulois("Obélix", 20);
 		Gaulois asterix = new Gaulois("Astérix", 6);
@@ -30,12 +35,14 @@ public class Scenario {
 		Poisson poisson1 = new Poisson("lundi");
 		Poisson[] poissons = { poisson1 };
 
+		/*
 		village.installerVendeur(etalSanglierAsterix, asterix, sangliersAsterix, 10);
 		village.installerVendeur(etalSanglierObelix, obelix, sangliersObelix, 8);
 		village.installerVendeur(etalPoisson, ordralfabetix, poissons, 5);
 
 		System.out.println(village);
 
+		
 		DepenseMarchand[] depense = village.acheterProduit("sanglier", 3);
 
 		for (int i = 0; i < depense.length && depense[i] != null; i++) {
@@ -44,6 +51,6 @@ public class Scenario {
 
 		System.out.println(village);
 
+	*/
 	}
-
 }
